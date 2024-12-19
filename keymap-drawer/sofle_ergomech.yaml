@@ -1,6 +1,7 @@
 layers:
-  default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '', ESC, Q, W, E, R, T, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT, Z,
-    X, C, V, B, N, M, ',', ., /, RSHFT, MUTE, LGUI, LALT, LCTRL, lower, SPACE, KP ENTER, raise, RCTRL, RALT, RGUI, ENTER, RIGHT, UP ARROW, '', DOWN]
+  default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BACKSPACE, ESC, Q, W, E, R, T, Y, U, I, O, P, \, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT,
+    Z, X, C, V, B, N, M, ',', ., /, RSHFT, LEFT GUI, LEFT ALT, LEFT CONTROL, lower, SPACE, MUTE, '', ENTER, raise, RIGHT CONTROL, RIGHT ALT, ENTER, RIGHT, UP ARROW,
+    RIGHT GUI, DOWN]
   lower:
   - {t: ▽, type: trans}
   - F1
@@ -53,8 +54,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -122,8 +123,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - A
@@ -183,12 +184,12 @@ layers:
   - RGB TOG
   - ''
   - ''
-  - ''
   - {type: held}
   - ''
   - ''
-  - {type: held}
   - ''
+  - ''
+  - {type: held}
   - ''
   - ''
   - A
